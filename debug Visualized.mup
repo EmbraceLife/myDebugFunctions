@@ -1,0 +1,64 @@
+{
+  "title": "debug Visualized",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "predefined debug tools",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "turnOnPauseControl()",
+          "id": 3
+        },
+        "2": {
+          "title": "stepByStepPressN()",
+          "id": 6
+        },
+        "3": {
+          "title": "loopingPauseLoopingPressL()",
+          "id": 8
+        }
+      }
+    },
+    "11": {
+      "title": "task1",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "visualize coordinates",
+          "id": 10,
+          "ideas": {
+            "2": {
+              "title": "for who",
+              "id": 13,
+              "ideas": {
+                "1": {
+                  "title": "attractor",
+                  "id": 12
+                },
+                "2": {
+                  "title": "mover",
+                  "id": 11,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "where to",
+              "id": 14,
+              "ideas": {
+                "1": {
+                  "title": "head of each object",
+                  "id": 15
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
