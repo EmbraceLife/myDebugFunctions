@@ -32,6 +32,10 @@ class Mover {
     strokeWeight(2);
     fill(127);
     ellipse(location.x,location.y,16,16);
+    
+    //viz debug
+    textAlign(CENTER);
+    text("x:"+location.x+", y:"+location.y, location.x, location.y-15);
   }
 
   void checkEdges() {

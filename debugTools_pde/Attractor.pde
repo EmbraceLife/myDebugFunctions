@@ -38,6 +38,10 @@ class Attractor {
     else if (rollover) fill(100);
     else fill(175,200);
     ellipse(location.x,location.y,mass*2,mass*2);
+    
+    // viz debug location.x,y
+    textAlign(CENTER);
+    text("x:"+location.x+", y:"+location.y, location.x, location.y-mass-5);    
   }
 
   // The methods below are for mouse interaction
