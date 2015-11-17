@@ -120,10 +120,23 @@ void watchHereBoolean(String str1, boolean var1, String str2) {
 }
 
 
-
 // *****
 // debug tools to be built
 // *****
 void watchHere(String str, float var1) {
   println("frame:", frameCount, str, "-->", var1);
+}
+
+
+
+// boolean displayXYToggle;
+void displayXY(float x, float y, float diameter, float spacer) {
+    // viz debug location.x,y
+  textAlign(CENTER);
+  text("x:"+x+", y:"+y, x, y-diameter/2-spacer);    
+}
+void displayXYToggleControl() {
+  if (key == '1') {
+    displayXYToggle = !displayXYToggle;
+  }
 }

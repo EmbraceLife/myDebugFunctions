@@ -40,8 +40,9 @@ class Attractor {
     ellipse(location.x,location.y,mass*2,mass*2);
     
     // viz debug location.x,y
-    textAlign(CENTER);
-    text("x:"+location.x+", y:"+location.y, location.x, location.y-mass-5);    
+    if (displayXYToggle) {
+      displayXY(location.x, location.y, mass*2, 5);
+    }
   }
 
   // The methods below are for mouse interaction

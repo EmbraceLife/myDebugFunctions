@@ -4,6 +4,8 @@
 boolean turnOnPause;
 boolean pauseByConditionToggle, __condition;
 
+// feature1
+boolean displayXYToggle;
 
 Mover m;
 Attractor a;
@@ -48,4 +50,6 @@ void keyPressed() {
  loopingPauseLoopingPressL();
  // conditionLoopingPauseLoopingTogglePressSpacebar();
   
+ // feature1: displayXY
+ displayXYToggleControl();
 }

@@ -34,8 +34,9 @@ class Mover {
     ellipse(location.x,location.y,16,16);
     
     //viz debug
-    textAlign(CENTER);
-    text("x:"+location.x+", y:"+location.y, location.x, location.y-15);
+    if (displayXYToggle) {
+      displayXY(location.x, location.y, 16, 5);
+    }
   }
 
   void checkEdges() {

@@ -71,8 +71,46 @@
               }
             }
           }
-        },
-        "2": {
+        }
+      }
+    },
+    "21": {
+      "title": "task2",
+      "id": 33,
+      "ideas": {
+        "1": {
+          "title": "adding features to display",
+          "id": 35,
+          "ideas": {
+            "1": {
+              "title": "when press a key to activate a new debug-viz feature, e.g. display-xy",
+              "id": 36,
+              "ideas": {
+                "1": {
+                  "title": "1. need a key toggle",
+                  "id": 37
+                },
+                "2": {
+                  "title": "2. need a function to be triggered by the key toggle",
+                  "id": 38,
+                  "ideas": {
+                    "1": {
+                      "title": "turn display-xy into a function",
+                      "id": 39
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "31": {
+      "title": "task3",
+      "id": 34,
+      "ideas": {
+        "1": {
           "title": "visualize gravitational force",
           "id": 25,
           "ideas": {
@@ -112,6 +150,9 @@
                 }
               }
             }
+          },
+          "attr": {
+            "style": {}
           }
         }
       }
