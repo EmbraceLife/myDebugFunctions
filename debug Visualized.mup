@@ -26,39 +26,54 @@
       "id": 9,
       "ideas": {
         "1": {
-          "title": "visualize coordinates",
+          "title": "visualize coordinates at head of each object",
           "id": 10,
           "ideas": {
             "2": {
-              "title": "for who",
-              "id": 13,
+              "title": "mover",
+              "id": 11,
+              "attr": {
+                "style": {}
+              },
               "ideas": {
                 "1": {
-                  "title": "attractor",
-                  "id": 12
-                },
-                "2": {
-                  "title": "mover",
-                  "id": 11,
+                  "title": "mover.display() add text()",
+                  "id": 17,
                   "attr": {
                     "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "void display() {}\ntextAlign(CENTER);\ntext(\"x:\"+location.x+\", y:\"+location.y, location.x, location.y-15);",
+                      "id": 20
+                    }
                   }
                 }
               }
             },
-            "3": {
-              "title": "where to",
-              "id": 14,
+            "4": {
+              "title": "attractor",
+              "id": 12,
               "ideas": {
                 "1": {
-                  "title": "head of each object",
-                  "id": 15
+                  "title": "attractor.display() add text()",
+                  "id": 22,
+                  "ideas": {
+                    "1": {
+                      "title": "void display() {}\ntextAlign(CENTER);\ntext(\"x:\"+location.x+\", y:\"+location.y, location.x, location.y-mass-5);",
+                      "id": 24
+                    }
+                  }
                 }
+              },
+              "attr": {
+                "style": {}
               }
             }
           }
         }
       }
     }
-  }
+  },
+  "links": []
 }
